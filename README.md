@@ -4,7 +4,7 @@ Woopy is a minimal Python API for trading on WooTrade. It is a Python interface 
 
 One of the reasons for the instability of python-wootrade is the unnecessary code complexity, which makes is hard to debug. It seems that python-wootrade is a stripped down version of [python-binance](https://github.com/sammchardy/python-binance). The source code of python-binance is equally complicated.
 
-Woopy avoids all unnecessary complications, which leaves a simple module that is easy to maintain.
+Woopy avoids all unnecessary complications, which leaves a simple module that is easy to maintain. Woopy has only two dependencies, namely `requests` and `websockets`.
 
 # Prerequisites
 
